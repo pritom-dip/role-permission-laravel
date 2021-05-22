@@ -29,12 +29,6 @@ Route::prefix('/admin')->group(function () {
             Route::resource('menu',            'MenuController');
             Route::post('menuprocess',          'MenuController@menuProcess')->name('menu.processondominion');
 
-
-
-            // ------------------Brand------------------
-            Route::resource('brand',        'BrandController');
-            // ------------------Process------------------
-            Route::resource('category',         'CategoryController');
         });
 
         //------------------------------- Admin Crud -------------------------------
