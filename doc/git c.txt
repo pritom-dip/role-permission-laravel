@@ -1,0 +1,12 @@
+first time run this ->
+git clone https://github.com/pritom-dip/ceramics.git
+git checkout shohan
+git fetch && git pull origin Development
+
+
+Every time before a push run this ->
+
+git add .
+git commit -m "commit name"
+git fetch && git pull origin Development
+git push origin shohan
